@@ -47,7 +47,13 @@ This is a user management web application that allows you to create, read, updat
    yarn install
    ```
 
-3. Start the development server:
+3. Create a `.env` file in the root directory and add your Google Places API key:
+
+   ```
+   VITE_GOOGLE_MAPS_API_KEY=your_api_key_here
+   ```
+
+4. Start the development server:
 
    ```
    npm run dev
@@ -55,7 +61,7 @@ This is a user management web application that allows you to create, read, updat
    yarn dev
    ```
 
-4. Open your brower and navigate to `http://localhost:5173` (or the port indicated in your terminal)
+5. Open your brower and navigate to `http://localhost:5173` (or the port indicated in your terminal)
 
 ## Application Structure
 
