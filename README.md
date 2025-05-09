@@ -35,7 +35,7 @@ This is a user management web application that allows you to create, read, updat
 1. Clone the repository:
 
    ```
-   git clone [repository-url]
+   git clone git@github.com:xhuliohasa/user-management-assignment.git
    cd user-management-app
    ```
 
