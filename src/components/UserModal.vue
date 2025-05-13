@@ -178,7 +178,7 @@ export default {
     };
   },
   created() {
-    this.formData = JSON.parse(JSON.stringify(this.user));
+    this.formData = this.user;
   },
   methods: {
     handlePlaceSelected(placeDetails) {
